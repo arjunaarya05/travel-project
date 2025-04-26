@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Travel Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="logo"><i class="fas fa-plane"></i> PlanMyTrip</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./des.html">Destinations</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Plan Your Perfect Trip</h1>
+            <p>Discover amazing destinations, create unforgettable memories, and travel the world with our expert planning tools.</p>
+            
+            <div class="search-box">
+                <div class="search-tabs">
+                    <div class="search-tab active">Flights</div>
+                    <div class="search-tab">Hotels</div>
+                    <div class="search-tab">Packages</div>
+                    <div class="search-tab">Activities</div>
+                </div>
+                
+                <form class="search-form">
+                    <div class="form-group">
+                        <label for="from">From</label>
+                        <input type="text" id="from" class="form-control" placeholder="City or Airport">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="to">To</label>
+                        <input type="text" id="to" class="form-control" placeholder="Destination">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="departure">Departure</label>
+                        <input type="date" id="departure" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="return">Return</label>
+                        <input type="date" id="return" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="placec">Place Category</label>
+                        <select id="Place-category" class="form-control">
+                            <option>Adventure place</option>
+                            <option>Cultural place</option>
+                            <option>Religious place</option>
+                            <option>Hill station</option>
+                
+                        </select>
+                    
+                    
+                    <div class="form-group">
+                        <label for="travelers">Travelers</label>
+                        <select id="travelers" class="form-control">
+                            <option>1 Adult</option>
+                            <option>2 Adults</option>
+                            <option>3 Adults</option>
+                            <option>4 Adults</option>
+                            <option>Family (2+2)</option>
+                            <option>Group (5+)</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn"><i class="fas fa-search"></i> Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-globe-americas"></i>
+                </div>
+                <h3>150+ Destinations</h3>
+                <p>Explore our extensive collection of destinations across all continents with detailed guides.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tags"></i>
+                </div>
+                <h3>Best Price Guarantee</h3>
+                <p>We guarantee the best prices for your trips. Found a better deal? We'll match it!</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Our travel experts are available around the clock to assist you with any questions.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <h3>Custom Itineraries</h3>
+                <p>Get personalized travel plans tailored to your interests and preferences.</p>
+            </div>
+        </section>
+
+        <section class="destinations">
+            <h2 class="section-title">Popular Destinations</h2>
+            
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VU-0QfH6wx4Vnp5fxxZ_aAHOIjmBAqpOmQ&s" alt="Paris" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Jaipur, Rajasthan</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> India</p>
+                    </div>
+                    <div class="price-tag">$899</div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="https://www.aaochale.com/wp-content/uploads/2023/03/mussoorie-uttarakhand.jpg" alt="Tokyo" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Mussoorie, Dehradun</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> India</p>
+                    </div>
+                    <div class="price-tag">$1299</div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/01/0f/3f/lonaval-lake.jpg?w=800&h=500&s=1" alt="New York" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3> Lonawala,Pune </h3>
+                        <p><i class="fas fa-map-marker-alt"></i> India</p>
+                    </div>
+                    <div class="price-tag">$799</div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://www.planetware.com/wpimages/2019/11/india-best-places-to-visit-agra.jpg" alt="New York" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3> Taj Mahal,Agra </h3>
+                        <p><i class="fas fa-map-marker-alt"></i> India</p>
+                    </div>
+                    <div class="price-tag">$799</div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/96/26/64/marina-beach.jpg?w=1200&h=1200&s=1" alt="Sydney" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Marina Beach, Chennai</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> India</p>
+                    </div>
+                    <div class="price-tag">$1499</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Wanderlust</h3>
+                    <p>We're dedicated to making travel planning easy and enjoyable, helping you create unforgettable experiences around the world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">Travel Blog</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Booking Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get special offers and travel inspiration</p>
+                    <form>
+                        <input type="email" placeholder="Your Email" class="form-control" style="margin-bottom: 10px;">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 Wanderlust Travel Planner. All rights reserved.
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
